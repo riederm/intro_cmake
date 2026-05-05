@@ -1,0 +1,40 @@
+# CMake build outputs
+build/
+build-*/
+out/
+
+# CMake-generated configuration files (when configured in-source)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+CMakeUserPresets.json
+compile_commands.json
+install_manifest.txt
+
+# Generator files
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Compiled artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.elf
+*.bin
+*.hex
+*.map
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
